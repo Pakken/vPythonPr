@@ -6,8 +6,8 @@ def main():
     planets = {}
     moons = {}
     
-    with open('com_planets') as data:
-        for i in json.loads(data.read()).items():
+    with open('com_planets') as planet_data:
+        for i in json.loads(planet_data.read()).items():
             planets.update(
                 {i[0] : sphere(
                     pos = vec(0,0,0),
@@ -20,8 +20,8 @@ def main():
                     make_trail =True,
                     retain = 150
                     )})
-    with open('com_moons') as data:
-        for i in json.loads(data.read()).items():
+    with open('com_moons') as moon_data:
+        for i in json.loads(moon_data.read()).items():
             moons.update(
                 {i[0]: sphere(
                     pos = vec(0,0,0),
@@ -31,11 +31,11 @@ def main():
                     period = 1/float(i[1]['period']),
                     color = eval(i[1]['color']),
                     make_trail =True,
-                    retain = 50
+                    retain = 160
                     )})
             
     while True:
-        scene.camera.follow(planets['earth'])
+        scene.camera.follow(planets['jupiter'])
         t += 0.01
         rate(30)
         for i in planets.values():

@@ -1,1 +1,9 @@
-{"moon": {"diameter": "0.2", "mass": "0.0123", "orb_rad": "1.2", "period": "0.07", "day": "0.034", "color": "color.gray(0.5)"}}
+{"moon": {"diameter": "0.27", "mass": "0.012", "orb_rad": "1.2", "period": "0.07", "day": "0.034", "color": "color.gray(0.5)"},
+"io": {"diameter": "0.286", "mass": "0.015", "orb_rad": "4", "period": "0.3", "day": "0.034", "color": "color.yellow"},
+"kallisto": {"diameter": "0.378", "mass": "0.018", "orb_rad": "5", "period": "0.5", "day": "0.034", "color": "color.red"},
+"europa": {"diameter": "0.245", "mass": "0.008", "orb_rad": "6", "period": "0.7", "day": "0.034", "color": "color.blue"},
+"ganimed": {"diameter": "0.413", "mass": "0.024", "orb_rad": "7", "period": "0.9", "day": "0.034", "color": "color.gray(0.5)"},
+"encelad": {"diameter": "0.04", "mass": "0.001", "orb_rad": "4", "period": "0.3", "day": "0.034", "color": "color.gray(0.5)"},
+"tefia": {"diameter": "0.084", "mass": "0.001", "orb_rad": "5", "period": "0.5", "day": "0.034", "color": "color.white"},
+"diona": {"diameter": "0.088", "mass": "0.001", "orb_rad": "6", "period": "0.7", "day": "0.034", "color": "color.orange"},
+"rea": {"diameter": "0.12", "mass": "0.001", "orb_rad": "8", "period": "0.9", "day": "0.034", "color": "color.green"}}
