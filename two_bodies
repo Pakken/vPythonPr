@@ -1,2 +1,0 @@
-{"star1": {"start": "vec(20,20,0)","diameter": "10", "mass": "100", "velocity": "vec(-1,0,0)", "color": "vec(1.0,0.5,0.5)"},
-"star2": {"start": "vec(-20,-20,0)", "diameter": "10", "mass": "100", "velocity": "vec(1,0,0)", "color": "vec(0.5,0.5,1.0)"}}
