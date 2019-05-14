@@ -1,0 +1,42 @@
+<html>
+<title>SPACE SIMULATIONS!!!</title>
+<body>
+<form method=POST action="cgi-bin/earth_sat_scene.py">
+    <table>
+    	<tr><th><b>Earth satellites</b></th></tr>
+    	<tr><th>First sat mass <td><input type="text" name='fsat_mass'></td></th></tr>
+  		<tr><th>First sat orbit radius <td><input type="text" name="fsat_orb"></td></th></tr>
+  		<tr><th>First sat velocity <td><input type="text" name="fsat_vel"></td></th></tr>
+		<tr><th>Second sat mass <td><input type="text" name="ssat_mass"></td></th></tr>
+  		<tr><th>Second sat orbit radius <td><input type="text" name="ssat_orb"></td></th></tr>
+  		<tr><th>Second sat velocity <td><input type="text" name="ssat_vel"></td></th></tr>
+  		<tr><th>Launching sat mass <td><input type="text" name="lsat_mass"></td></th></tr>
+  		<tr><th>Launching sat angle <td><input type="text" name="lsat_ang"></td></th></tr>
+  		<tr><th>Launching sat velocity <td><input type="text" name="lsat_vel"></td></th></tr>
+    </table>
+    <input type="submit" value="Poehali!" name="action">
+</form>
+<form method=POST action="cgi-bin/three_star_scene.py">
+    <table>
+    	<tr><th><b>Three interesting stars</b></th></tr>
+    	<tr><th>First star mass <td><input type="text" name="fstar_mass"></td></th></tr>
+  		<tr><th>First star position <td><input type="text" name="fstar_pos"></td></th></tr>
+  		<tr><th>First star velocity <td><input type="text" name="fstar_vel"></td></th></tr>
+  		<tr><th>Second star mass <td><input type="text" name="sstar_mass"></td></th></tr>
+  		<tr><th>Second star position <td><input type="text" name="sstar_pos"></td></th></tr>
+  		<tr><th>Second star velocity <td><input type="text" name="sstar_vel"></td></th></tr>
+  		<tr><th>Third star mass <td><input type="text" name="tstar_mass"></td></th></tr>
+  		<tr><th>Third star position <td><input type="text" name="tstar_pos"></td></th></tr>
+  		<tr><th>Third star velocity <td><input type="text" name="tstar_vel"></td></th></tr>
+    </table>
+    <input type="submit" value="Poehali!" name="action">
+</form>
+<form method=POST action="cgi-bin/solar_system.py">
+    <table>
+    	<tr><th><b>Solar system</b></th></tr>
+    	<tr><th>Input your the most liked planet <td><input type="text" name="tplanet"></td></th></tr>
+    </table>
+    <input type="submit" value="Real" name="action">
+    <input type="submit" value="Visual" name="action">
+</form>
+</body></html>

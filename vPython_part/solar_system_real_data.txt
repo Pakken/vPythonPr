@@ -1,0 +1,12 @@
+(sun,diameter:109.245,mass:332837,orb_rad:0,period:0,day:0.034)
+(mercury,diameter:0.382,mass:0.055,orb_rad:0.38,period:0.241,day:58.6)
+(venus,diameter:0.949,mass:0.815,orb_rad:0.72,period:0.615,day:243)
+(earth,diameter:1,mass:1,orb_rad:1,period:1,day:1)
+(moon,diameter:0.2727,mass:0.0123,orb_rad:0.00257,period:0.07,day:0.034)
+(mars,diameter:0.53,mass:0.107,orb_rad:1.52,period:1.88,day:1.03)
+(jupiter,diameter:11.2,mass:318,orb_rad:5.20,period:11.86,day:0.414)
+(saturn,diameter:9.41,mass:95,orb_rad:9.54,period:29.46,day:0.426)
+(uran,diameter:3.98,mass:14.6,orb_rad:19.22,period:84.01,day:0.718)
+(neptun,diameter:3.81,mass:17.2,orb_rad:30.06,period:164.79,day:0.671)
+(pluto,diameter:0.186,mass:0.0022,orb_rad:39.2,period:248,day:6.387)
+
