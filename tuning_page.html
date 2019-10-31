@@ -4,15 +4,15 @@
 <form method=POST action="cgi-bin/earth_sat_scene.py">
     <table>
     	<tr><th><b>Earth satellites</b></th></tr>
-    	<tr><th>First sat mass <td><input type="text" name='fsat_mass'></td></th></tr>
-  		<tr><th>First sat orbit radius <td><input type="text" name="fsat_orb"></td></th></tr>
-  		<tr><th>First sat velocity <td><input type="text" name="fsat_vel"></td></th></tr>
-		<tr><th>Second sat mass <td><input type="text" name="ssat_mass"></td></th></tr>
-  		<tr><th>Second sat orbit radius <td><input type="text" name="ssat_orb"></td></th></tr>
-  		<tr><th>Second sat velocity <td><input type="text" name="ssat_vel"></td></th></tr>
-  		<tr><th>Launching sat mass <td><input type="text" name="lsat_mass"></td></th></tr>
-  		<tr><th>Launching sat angle <td><input type="text" name="lsat_ang"></td></th></tr>
-  		<tr><th>Launching sat velocity <td><input type="text" name="lsat_vel"></td></th></tr>
+          <tr><th>First sat mass (417000) <td><input type="text" name='fsat_mass'></td></th></tr>
+          <tr><th>First sat orbit radius (6700000)<td><input type="text" name="fsat_orb"></td></th></tr>
+          <tr><th>First sat velocity (7746 km) <td><input type="text" name="fsat_vel"></td></th></tr>
+          <tr><th>Second sat mass (3000)<td><input type="text" name="ssat_mass"></td></th></tr>
+          <tr><th>Second sat orbit radius (42171000)<td><input type="text" name="ssat_orb"></td></th></tr>
+          <tr><th>Second sat velocity (3074) <td><input type="text" name="ssat_vel"></td></th></tr>
+          <tr><th>Launching sat mass (4000)<td><input type="text" name="lsat_mass"></td></th></tr>
+          <tr><th>Launching sat acceleration (100)<td><input type="text" name="lsat_axel"></td></th></tr>
+          <tr><th>Launching sat fuel (30)<td><input type="text" name="lsat_fuel"></td></th></tr>
     </table>
     <input type="submit" value="Poehali!" name="action">
 </form>
@@ -31,7 +31,7 @@
     </table>
     <input type="submit" value="Poehali!" name="action">
 </form>
-<form method=POST action="cgi-bin/solar_system.py">
+<form method=POST action="cgi-bin/solar_system_scene.py">
     <table>
     	<tr><th><b>Solar system</b></th></tr>
     	<tr><th>Input your the most liked planet <td><input type="text" name="tplanet"></td></th></tr>
